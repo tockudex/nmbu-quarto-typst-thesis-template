@@ -1,0 +1,6 @@
+# Ignore cache dirs
+*_cache/
+*_files/
+
+# Ignore PDFs
+*.pdf
