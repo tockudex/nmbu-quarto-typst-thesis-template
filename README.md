@@ -33,4 +33,10 @@ quarto use template tockudex/nmbu-quarto-typst-thesis-template
 
 Inside of the template directory, you will find the markdown file `thesis.qmd`, which you can use as a starting place for writing your thesis.
 
+A `.qmd` file is composed of a `YAML` header and a `markdown` body. The former contains `keys` that set parameters applying to your body and metadata (author name, published date, etc.). Most keys used in this template are annotated, so you can easily adjust them to your needs. The body of a Quarto document is written in a slightly [modified markdown version](https://quarto.org/docs/authoring/markdown-basics.html).
+
+### Abstract section
+
+In published papers and reports, the abstract is often placed right after the title and prior to the table of contents (toc) and introduction. In a Quarto document, the `toc` appears before any other heading (abstract, introduction, etc.). In order to place the abstract before the `toc`, you can comment out (remove the pound/hash sign) `abstract-section` from the `filters` key in the YAML header. Upon recompilation, your abstract will appear before your `toc`.
+
 _TODO_: Better describe how to use this format (typst files, etc.).
