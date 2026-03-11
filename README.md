@@ -33,7 +33,7 @@ quarto use template tockudex/nmbu-quarto-typst-thesis-template
 
 Inside of the template directory, you will find the markdown file `thesis.qmd`, which you can use as a starting place for writing your thesis.
 
-A `.qmd` file is composed of a `YAML` header and a `markdown` body. The former contains `keys` that set parameters applying to your body and metadata (author name, published date, etc.). Most keys used in this template are annotated, so you can easily adjust them to your needs. The body of a Quarto document is written in a slightly [modified markdown version](https://quarto.org/docs/authoring/markdown-basics.html).
+A `.qmd` file is composed of a `YAML` header and a `markdown` body. The former contains `keys` that set parameters applying to your body and metadata (author name, published date, etc.). Most keys used in this template are annotated, so you can easily adjust them to your needs. The body of a Quarto document is written in a slightly [modified markdown](https://quarto.org/docs/authoring/markdown-basics.html).
 
 ### Abstract section
 
