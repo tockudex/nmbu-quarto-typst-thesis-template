@@ -2,6 +2,13 @@
 title: Untitled
 format:
   nmbu-thesis-template-typst: default
+
+# Places a table of contents after your title
+toc: true
+
+#filters:
+  # Places the abstract before the table of contents
+  #- abstract-section
 ---
 
 ## Introduction
