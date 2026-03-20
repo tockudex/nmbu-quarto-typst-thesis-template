@@ -1,6 +1,6 @@
 
 // This is an example typst template (based on the default template that ships
-// with Quarto). It defines a typst function named 'article' which provides
+// with Quarto). It defines a typst function named 'thesis' which provides
 // various customization options. This function is called from the 
 // 'typst-show.typ' file (which maps Pandoc metadata function arguments)
 //
@@ -11,35 +11,58 @@
 //   - https://github.com/typst/templates
 
 
-#let article(
+#let thesis(
+
   title: none,
   subtitle: none,
+
   authors: none,
+
   date: none,
+
+  supervisor: none,
+  university: none,
+
+  thanks: none,
+
   abstract: none,
   abstract-title: none,
+
   cols: 1,
   margin: (x: 1.25in, y: 1.25in),
-  paper: "us-letter",
-  lang: "en",
-  region: "US",
-  font: "libertinus serif",
-  fontsize: 11pt,
+  paper: none,
+
+  lang: none,
+  region: none,
+
+  font: none,
+  fontsize: none,
+
+  // how are these two keys defined? where? since they do not appear in typst-show
   title-size: 1.5em,
   subtitle-size: 1.25em,
+
   heading-family: "libertinus serif",
   heading-weight: "bold",
   heading-style: "normal",
   heading-color: black,
   heading-line-height: 0.65em,
+
   sectionnumbering: none,
-  pagenumbering: "1",
-  toc: false,
+  pagenumbering: none,
+
+  toc: none,
   toc_title: none,
   toc_depth: none,
-  toc_indent: 1.5em,
+  toc_indent: none,
+
+  linkcolor: none,
+  linestrech: none,
+
   doc,
+
 ) = {
+
   set page(
     paper: paper,
     margin: margin,

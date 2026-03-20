@@ -2,6 +2,53 @@
 title: Untitled
 format:
   nmbu-thesis-template-typst: default
+
+subtitle: Unsubtitled
+
+authors: Unauthored
+
+# you can specify different numeric values for the date
+date: last-modified
+
+abstract-title: Abstract
+
+supervisor: Unsupervised
+
+university: NMBU - Norwegian University of Life Sciences
+
+cols: 1
+# paper size, a4 (master's thesis) or a5 (PhD thesis)
+papersize: a4
+
+# en for English or no for Norwegian
+lang: en
+# US/GB/NO
+region: US
+
+# main font for the text body (good choices: noto sans, arial)
+mainfont: "Noto sans"
+fontsize: 11pt
+
+title-size: 1em
+subtitle-size: 1.25em
+
+heading-family: "libertinus serif"
+heading-weight: bold
+heading-style: normal
+heading-color: black
+heading-line-height: 0.65em
+
+sectionnumbering: none
+pagenumbering: "1"
+
+linkcolor: none
+linestrech: none
+
+# relating to table of contents
+toc: true
+toc-title: Table of contents
+toc-depth: 1
+toc-indent: 1.5em
 ---
 
 ## Introduction
