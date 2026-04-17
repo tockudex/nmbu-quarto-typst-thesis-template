@@ -1,5 +1,5 @@
 ---
-title: Here goes the title of your thesis
+title: "Here goes the title of your thesis"
 format:
   nmbu-thesis-template-typst: default
 # Places a table of contents after your title
@@ -8,27 +8,21 @@ toc: true
 filters:
 	# Add support to choose the location of the references section with the #refs div
   - typst-refs
+  - abstract-section
 
 # Specify file containing bib references
 bibliography: references.bib
 # Use APA 7th edition for references which is recommended by NMBU
 csl: apa.csl
+# Custom name for the #ref div for bibliography (no need for an extra heading)
+biblio-title: "Bibliography"
 ---
 
 ## Acknowledgements
 
-{{< pagebreak >}}
-
-
 ## Abstract
 
-{{< pagebreak >}}
-
-
 ## List of abbreviations
-
-{{< pagebreak >}}
-
 
 ## Introduction
 
@@ -39,8 +33,6 @@ csl: apa.csl
 ## Discussion
 
 ## Conclusion
-
-## References
 
 ::: {#refs}
 :::
