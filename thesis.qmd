@@ -26,13 +26,15 @@ lang: en
 region: US
 
 # main font for the text body (good choices: noto sans, arial)
-mainfont: "Noto sans"
+mainfont: "Caladea"
+maintfontoptions: fonts/Caladea-Regular.ttf
 fontsize: 11pt
 
 title-size: 1em
 subtitle-size: 1.25em
 
-heading-family: "libertinus serif"
+heading-family: "Arimo"
+heading-family-options: fonts/Arimo-Bold.ttf
 heading-weight: bold
 heading-style: normal
 heading-color: black
