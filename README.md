@@ -40,3 +40,17 @@ A `.qmd` file is composed of a `YAML` header and a `markdown` body. The former c
 In published papers and reports, the abstract is often placed right after the title and prior to the table of contents (toc) and introduction. In a Quarto document, the `toc` appears before any other heading (abstract, introduction, etc.). In order to place the abstract before the `toc`, you can comment out (remove the pound/hash sign) `abstract-section` from the `filters` key in the YAML header. Upon recompilation, your abstract will appear before your `toc`.
 
 _TODO_: Better describe how to use this format (typst files, etc.).
+
+### Maths
+
+To add mathematical equations to your thesis, you can declare it like so:
+
+```quarto
+$$
+f\relax(x) = \int_{-\infty}^\infty
+    f\hat\xi\,e^{2 \pi i \xi x}
+    \,d\xi
+$${#eq-example}
+```
+
+Quarto relies on the maths synthax of Latex.
